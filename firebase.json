@@ -1,0 +1,16 @@
+{
+  "hosting": [
+    {
+      "target": "reactive-velooc",
+      "public": "dist/reactive-velooc",
+      "site": "reactive-velooc",
+      "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}
